@@ -37,6 +37,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     arel (6.0.3)
+    atomic (1.0.1)
     atomic (1.0.1-java)
     builder (3.2.2)
     chunky_png (1.3.5)
@@ -56,6 +57,7 @@ GEM
       compass (~> 1.0.0)
     erubis (2.7.0)
     execjs (2.6.0)
+    ffi (1.9.10)
     ffi (1.9.10-java)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
@@ -63,6 +65,7 @@ GEM
     jbuilder (2.3.2)
       activesupport (>= 3.0.0, < 5)
       multi_json (~> 1.2)
+    json (1.8.0)
     json (1.8.0-java)
     json-schema (1.0.10)
     loofah (2.0.3)
@@ -70,14 +73,21 @@ GEM
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
     mime-types (2.6.2)
+    mini_portile (0.6.2)
     minitest (5.8.2)
     multi_json (1.11.2)
     multipart-post (1.2.0)
     net-http-persistent (2.8)
+    nio4r (2.5.2)
+    nio4r (2.5.2-java)
+    nokogiri (1.6.6.2)
+      mini_portile (~> 0.6.0)
     nokogiri (1.6.6.2-java)
-    puma (2.8.2-java)
-      rack (>= 1.1, < 2.0)
-    rack (1.6.4)
+    puma (4.3.1)
+      nio4r (~> 2.0)
+    puma (4.3.1-java)
+      nio4r (~> 2.0)
+    rack (1.6.11)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (4.2.4)
@@ -130,6 +140,7 @@ GEM
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
     thor (0.19.1)
+    thread_safe (0.3.5)
     thread_safe (0.3.5-java)
     tilt (2.0.1)
     tzinfo (1.2.2)
@@ -144,6 +155,7 @@ GEM
 
 PLATFORMS
   java
+  ruby
 
 DEPENDENCIES
   atomic
@@ -152,7 +164,7 @@ DEPENDENCIES
   json-schema
   multipart-post (= 1.2.0)
   net-http-persistent (= 2.8)
-  puma
+  puma (>= 3.12.2)
   rails (= 4.2.4)
   rails-api
   sass-rails (~> 5.0)
@@ -162,4 +174,4 @@ DEPENDENCIES
   zurb-foundation
 
 BUNDLED WITH
-   1.10.6
+   1.17.3
