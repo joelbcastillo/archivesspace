@@ -7,7 +7,7 @@ gem 'json-schema'
 gem "net-http-persistent", "2.8"
 gem "multipart-post", "1.2.0"
 
-gem 'puma'
+gem 'puma', '>= 3.12.2'
 
 
 
