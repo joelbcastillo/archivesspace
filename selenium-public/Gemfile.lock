@@ -4,18 +4,21 @@ GEM
     activesupport (3.2.22.2)
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
+    atomic (1.0.1)
     atomic (1.0.1-java)
     childprocess (0.5.9)
       ffi (~> 1.0, >= 1.0.11)
     diff-lcs (1.2.5)
     ffi (1.9.13)
+    ffi (1.9.13-java)
     i18n (0.7.0)
+    json (1.8.0)
     json (1.8.0-java)
     json-schema (1.0.10)
     multi_json (1.12.1)
     multipart-post (1.2.0)
     net-http-persistent (2.8)
-    rack (1.4.7)
+    rack (1.6.12)
     rspec (3.3.0)
       rspec-core (~> 3.3.0)
       rspec-expectations (~> 3.3.0)
@@ -42,6 +45,7 @@ GEM
 
 PLATFORMS
   java
+  ruby
 
 DEPENDENCIES
   activesupport (~> 3.2.22)
@@ -51,7 +55,7 @@ DEPENDENCIES
   multi_json (~> 1.12.1)
   multipart-post (= 1.2.0)
   net-http-persistent (= 2.8)
-  rack (~> 1.4.7)
+  rack (~> 1.6.12)
   rspec (~> 3.3.0)
   rspec-retry
   rubyzip (= 1.0.0)
@@ -59,4 +63,4 @@ DEPENDENCIES
   zip-zip (= 0.3)
 
 BUNDLED WITH
-   1.12.5
+   1.17.3
